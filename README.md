@@ -11,7 +11,7 @@ Goal: Develop a hybrid deep learning model that detects Pneumonia using both che
 
 2. Dataset Details
 
-
+   We collect around 3.5GB dataset of X-ray images from kaggle and other sources. 
 
 3. Data Preprocessing
 
