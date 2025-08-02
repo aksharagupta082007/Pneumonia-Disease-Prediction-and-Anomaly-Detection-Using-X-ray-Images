@@ -1,1 +1,23 @@
 
+🧠 Today's Work Summary – Model Training and Dataset Balancing
+
+Started training our deep learning model for classification.
+
+Observed that the dataset was imbalanced, with significantly more images of one class than the other.
+
+Noticed that accuracy, precision, recall, and F1-score were being negatively impacted due to this imbalance.
+
+Analyzed the performance metrics and confirmed that the model was biased towards the majority class.
+
+Decided to address the issue by collecting data from multiple sources to create a more representative dataset.
+
+Merged different datasets and carefully selected images to form a balanced training, validation, and test set:
+
+Training set: 5,000 Normal, 5,500 Pneumonia
+
+Validation set: 500 Normal, 550 Pneumonia
+
+Verified that the new dataset has an approximately equal distribution of both classes.
+
+Prepared the merged dataset structure for the next round of training.
+DATE:02-08-2025
