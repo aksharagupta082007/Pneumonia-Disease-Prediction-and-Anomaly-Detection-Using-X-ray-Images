@@ -22,7 +22,7 @@ Verified that the new dataset has an approximately equal distribution of both cl
 Prepared the merged dataset structure for the next round of training.
 DATE:02-08-2025
 
-🧠 Todays work summary
+🧠 Today's work summary
 -we tried training our model but due to internet issues and limited computational units provided by google colab it was not successful 
 -now we have decided to train our model on jupiter on our system's GPU
 -so today we did necessary installation
