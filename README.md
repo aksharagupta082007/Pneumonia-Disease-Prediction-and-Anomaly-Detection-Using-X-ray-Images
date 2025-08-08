@@ -1,5 +1,5 @@
 # Pneumonia-Disease-Prediction-and-Anomaly-Detection-Using-X-ray-Images
-Hybrid Pneumonia Detection Project (DenseNet-120 + ViT-B16 + Age Feature)
+Hybrid Pneumonia Detection Project (DenseNet-120 + ViT-B16 )
 =======================================================================
 
 1. Project Overview
