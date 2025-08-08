@@ -61,12 +61,6 @@ Goal: Develop a hybrid deep learning model that detects Pneumonia using both che
 
 
 5. Training Pipeline
-Here’s your **Training Setup** in **bullet points**:
-
-* **Device Selection**
-
-  * Checks if **GPU (CUDA)** is available; if yes, uses it for faster training, otherwise uses CPU.
-
 * **Model Initialization**
 
   * Creates an instance of `HybridCNNViT`.
@@ -93,11 +87,3 @@ Here’s your **Training Setup** in **bullet points**:
 
 
 
-9. Project Roadmap
-
-- Collect and clean datasets (adult + pediatric).
-- Build and train hybrid model.
-- Develop backend API for inference.
-- Design frontend web interface.
-- Integrate age + X-ray upload and connect frontend to backend.
-- Deploy complete system online.
