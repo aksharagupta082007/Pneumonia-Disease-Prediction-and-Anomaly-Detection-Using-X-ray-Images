@@ -38,6 +38,8 @@ Goal: Develop a hybrid deep learning model that detects Pneumonia using both che
 
 * **Feature Fusion** – The CNN output vector `(batch, 1024)` and the ViT output vector `(batch, 768)` are concatenated along the feature dimension to create a **joint feature vector** `(batch, 1792)`.
 
+  ![image alt]()
+
 * **Classification Head** –
 
   * First **Linear layer** reduces 1792 features to 512.
