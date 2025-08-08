@@ -5,7 +5,7 @@ Hybrid Pneumonia Detection Project (DenseNet-120 + ViT-B16 )
 1. Project Overview
 
 Goal: Develop a hybrid deep learning model that detects Pneumonia using both chest X-ray images and patient age.
-- Model Type: Hybrid CNN + Transformer model.
+- Model Type: Hybrid CNN +  Visual Transformer model.
 - Architecture: DenseNet-121 (CNN) for local image features + ViT-B16 (Vision Transformer) for global image features.
 
 2. Dataset Details
