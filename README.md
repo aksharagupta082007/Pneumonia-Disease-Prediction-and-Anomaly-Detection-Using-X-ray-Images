@@ -22,7 +22,7 @@ Goal: Develop a hybrid deep learning model that detects Pneumonia using both che
 * **Normalize(mean, std)** – Standardizes image channels using dataset-specific **mean** and **standard deviation** to stabilize training.  Applied to **both Train & Test** datasets.
 
 4. Model Architecture
-
+    ![image alt](hybrid_vit.png)
 * **Architecture Purpose** – This model is a **Hybrid CNN + ViT** architecture that merges the strengths of convolutional neural networks (CNNs) and vision transformers (ViTs) for more accurate image classification, especially in X-ray analysis.
 
 * **CNN Backbone (DenseNet-121)** – Uses the **`features`** part of a pre-trained DenseNet-121 from torchvision to extract **local spatial and texture-based features** from the input image.
@@ -37,8 +37,6 @@ Goal: Develop a hybrid deep learning model that detects Pneumonia using both che
   * The **\[CLS] token** from the ViT output (`last_hidden_state[:, 0, :]`) is used as a **global representation** of the entire image, producing a `(batch, 768)` vector.
 
 * **Feature Fusion** – The CNN output vector `(batch, 1024)` and the ViT output vector `(batch, 768)` are concatenated along the feature dimension to create a **joint feature vector** `(batch, 1792)`.
-
-  ![image alt]()
 
 * **Classification Head** –
 
