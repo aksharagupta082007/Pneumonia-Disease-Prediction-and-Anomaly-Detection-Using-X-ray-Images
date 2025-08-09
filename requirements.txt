@@ -9,4 +9,6 @@ import os
 from PIL import Image
 from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
-     
+from torchvision import models
+from transformers import ViTModel     
+
